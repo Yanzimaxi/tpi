@@ -1,0 +1,74 @@
+.carousel-inner{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 400px;
+}
+.carousel-caption h5 p{
+    color: white;
+}
+
+.foto1{
+    filter: brightness(50%);
+}
+
+.foto2{
+    filter: brightness(50%);
+}
+
+.foto3{
+    filter: brightness(50%);
+}
+
+.container1{
+    text-align: center;
+}
+
+.cartahorizontal{
+    margin-top: 30px;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.boton{
+    width: 100%;
+    background-color: yellowgreen;
+    color: white;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient( rgb(0, 38, 255) ,rgb(0, 217, 255));
+    margin-top: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width : 480px){
+      .container-fluid{
+          display: flex;
+          flex-direction:column;
+      }
+      .carousel-caption{
+          font-size: xx-small;
+      }
+}
+
+@media (max-width : 900px){
+       .carousel-inner{
+           position: relative;
+       }
+       .carousel-caption{
+           position: absolute;
+           top: 30px;
+       }
+}
